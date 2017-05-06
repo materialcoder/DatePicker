@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DatePicker组件</title>
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: "Microsoft Yahei";
+		}
+		.datepicker {
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			padding: 5px;
+			height: 24px;
+			line-height: 24px;
+			width: 230px;
+			margin-left: 100px;
+		}
+		.datepicker:focus {
+			outline: 0 none;
+			border: 1px solid #1abc9c;
+		}
+	</style>
+</head>
+<body>
+	<input type="text" class="datepicker">
+	<script src="js/date.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		datepicker.init('.datepicker');
+	</script>
+</body>
+</html>
